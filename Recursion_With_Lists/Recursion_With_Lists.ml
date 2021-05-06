@@ -6,7 +6,7 @@ let rec length_of_list (l: int list): int =
 
 let rec sum_of_list (l: int list): int =
   begin match l with
-    | [] -> 0
+    | [] -> 0 
     | h::t -> h + ((sum_of_list t))
   end;;
 
