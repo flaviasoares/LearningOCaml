@@ -1,6 +1,6 @@
 (*Variável pi recebe o valor passado pelo usuário e multiplica
 pelo arco tangente de 1 (atan 1.0). 
-O ponto após o * é para fins de sintaxe: função interagindo com outra função*)
+O ponto após o * é para operar tipo float (para int não precisa do ponto)*)
 let pi = read_float () *. atan 1.0;;
 
 (*x recebe x multiplicando ele mesmo.*)
